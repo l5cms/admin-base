@@ -1,0 +1,4 @@
+Install:
+php artisan vendor:publish --provider="Nejtr0n\Admin\Base\InstallServiceProvider"
+add dependency to config/app.php
+Modules\Admin\Base\Providers\BaseServiceProvider::class;
